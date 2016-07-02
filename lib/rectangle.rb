@@ -1,5 +1,5 @@
 require('rspec')
-require('rectangle')
+require('./lib/rectangle')
 
 class Rectangle
   define_method(:initialize) do |length, width|
